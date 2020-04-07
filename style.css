@@ -33,10 +33,18 @@ html{
   border-radius: 100px;
   padding: 10px;
   color: #ffffff;
-  border: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 5px solid #16a085;
   width: 60%;
   margin: 5px;
   cursor: pointer;
+}
+.object-button:hover{
+  transform: translateY(5px);
+  border: none;
+  margin-bottom: 10px;
 }
 
 .animation-area{
