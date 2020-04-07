@@ -1,7 +1,7 @@
 html{
   background: linear-gradient(to bottom, #3498db, #27ae60);
   width: auto;
-  height: 105vh;
+  height: 110vh;
 }
 .container{
   display: flex;
@@ -26,6 +26,7 @@ html{
 .object-form{
   background-color: #34495e;
   padding: 5px;
+  border-radius: 100px;
 }
 .object-button{
   background-color: #1abc9c;
@@ -41,7 +42,7 @@ html{
   cursor: pointer;
 }
 .object-button:hover{
-  transform: translateY(5px);
+  transform: translateY(8px);
   border: none;
   margin-bottom: 10px;
   box-shadow: inset 0px 10px 3px #16a085;
@@ -60,7 +61,7 @@ html{
   height: 102%;
 }
 .box-area li{
-  position: absolute;
+  position: fixed;
   list-style: none;
   width: 25px;
   height: 25px;
